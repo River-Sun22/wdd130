@@ -1,42 +1,17 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-header, footer {
-    background-color: #333333;
-    color: white;
-    padding: 10px;
-}
-
-header {
-    font-size: 1.25rem;
-}
-
-footer {
-    font-size: 0.8rem;
-}
-
-section {
-    background-color: lightgray;
-    padding: 10px;
-    margin: 15px auto;
-}
-
-main {
-    margin: 0 auto;
-    max-width: 600px;
-}
-
-h2 {
-    border-bottom: 1px solid black;
-}
-
-picture img {
-    box-shadow: 0 0 30px #333333; 
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-}
-p {
-    margin: 10px;
+:root {
+    --body-font: Arial, Helvetica, sans-serif;
+    --header-footer-bg: #333333;
+    --header-footer-color: white;
+    --header-font-size: 1.25rem;
+    --footer-font-size: 0.8rem;
+    --section-bg: lightgray;
+    --section-padding: 10px;
+    --section-margin: 15px auto;
+    --main-max-width: 600px;
+    --h2-border-color: black;
+    --img-box-shadow: 0 0 30px #333333;
+    --img-margin: 0 auto;
+    --img-max-width: 100%;
+    --img-height: auto;
+    --p-margin: 10px;
 }
