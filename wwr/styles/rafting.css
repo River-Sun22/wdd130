@@ -109,3 +109,8 @@ hero h1 {
 footer p {
     margin-bottom: 10px;
 }
+
+footer nav.socialmedia a img {
+    width: 40px;
+    margin-left: 10px;
+}
